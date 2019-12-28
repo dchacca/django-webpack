@@ -218,7 +218,7 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var vue__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! vue */ "./node_modules/vue/dist/vue.esm.js");
 
 
-vue__WEBPACK_IMPORTED_MODULE_1__["default"].component('my-component', __webpack_require__(/*! ./components/Example.vue */ "./assets/components/Example.vue")["default"]);
+vue__WEBPACK_IMPORTED_MODULE_1__["default"].component('example', __webpack_require__(/*! ./components/Example.vue */ "./assets/components/Example.vue")["default"]);
 var app = new vue__WEBPACK_IMPORTED_MODULE_1__["default"]({
   el: '#app'
 });

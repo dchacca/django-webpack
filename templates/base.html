@@ -8,7 +8,14 @@
 <body>
 <div id="app">
 <a href="#" class="btn">Save!!</a>
+    <example></example>
 </div>
 <script src="{% static "app.bundle.js" %}"></script>
 </body>
 </html>
+<script>
+    import Example from "../assets/components/example";
+    export default {
+        components: {Example}
+    }
+</script>
